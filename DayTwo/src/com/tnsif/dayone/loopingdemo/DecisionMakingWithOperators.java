@@ -3,22 +3,20 @@ package com.tnsif.dayone.loopingdemo;
 public class DecisionMakingWithOperators {
 	
 	public static void main(String[] args) {
-		int x = 8, y = 7;
-		int a = 10;
-		int b = 11;
+		int x = 8, y = 9;
+		int a = 15;
+		int b = 10;
 
-		if (x >= y) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
-
-		if (!(a < b) || (a == b)) {
-			System.out.println("Condition is TRUE");
-		} else
-
-		{
-			System.out.println("Condition is FALSE");
-		}
+		if (x>y)
+			System.out.println("x is greater than y");
+		else
+			System.out.println("y is greater than x");
+		
+		if(!(a<b)||(a==b))
+			System.out.println("Condition is True");
+		else
+			System.out.println("Condition is False");
+			
 	}
-}
+	}
+

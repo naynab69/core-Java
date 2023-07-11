@@ -5,7 +5,7 @@ public class DoWhileDemo {
 		int i = 11;
 		do {
 			System.out.println(i);
-			i++;
-		} while (i <= 1);
+			i++; //12
+		} while (i <= 15);
 	}
 }
