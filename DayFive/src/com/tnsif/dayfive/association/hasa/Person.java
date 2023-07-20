@@ -5,7 +5,7 @@ package com.tnsif.dayfive.association.hasa;
 public class Person {
 
 	private String name;
-	private Address address;
+	private Address address;  //object reference
 
 	public Person(String name, Address address) {
 		this.name = name;
