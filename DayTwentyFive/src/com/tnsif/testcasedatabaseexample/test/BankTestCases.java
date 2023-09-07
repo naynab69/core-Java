@@ -16,11 +16,11 @@ class BankTestCases {
 	SavingAccountService service;
 
 	@ParameterizedTest
-	@ValueSource(ints = { 1001, 1006 })
+	@ValueSource(ints = { 1001, 1006 ,1002,1008})
 	void validateAccountTest(int accNo) {
 		service = new SavingAccountService();
 		boolean status = service.validateAccount(accNo);
-		// assertEquals(true, status);
+		//assertEquals(true, status);
 		assertTrue(status);
 	}
 
